@@ -1,0 +1,33 @@
+<head>
+  <title>Forum</title>
+</head>
+
+<body>
+  {{> posts}}
+  {{> post }}
+
+</body>
+
+<template name="posts">
+
+  <h1>Posts</h1>
+
+  <ul>
+
+    {{#each posts}}
+      <li>{{text}}</li>
+    {{/each}}
+
+  </ul>
+</template>
+
+<template name="post">
+
+    <form action="javascript:void(0)">
+        <label for="post">Message: </label>
+        <input id="post" />
+        <button type="submit">&rArr; Send</button>
+    </form>
+
+</template>
+
