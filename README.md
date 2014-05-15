@@ -1,0 +1,4 @@
+chatjsmeteor
+============
+
+Meteor + chat + easy 
